@@ -1,0 +1,744 @@
+body
+{
+	background-color: black;
+	color: white; /**/
+	font-family: Arial;
+}
+
+header
+{
+	background-image: url(header_fon.jpg);
+	max-width: 1920px;
+	width: 100%;
+	height: 1080px;
+	color: white;
+}
+
+.the_uppest
+{
+	height: 115px;
+	max-width: 1185px;
+	width: 100%;
+	border-bottom: 1px solid white;
+	white-space:nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 100px;
+	height: 50px;
+}
+
+.logo img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#center
+{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_header
+{
+	height: 100%;
+	font-size: 1.2vw;
+	display: inline-block;
+}
+
+.menu_header div
+{
+	font-weight: bold;
+	margin-right: 2vw;
+	float: left;
+	height: 100%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.sharing_buttons
+{
+	max-width: 21vmax;
+	width: 21%;
+}
+
+.sharing_buttons a
+{
+	width: 0.15vw;
+	background-color: transparent;
+	margin-right: 0.1vw;
+}
+
+.sharing_buttons section
+{
+	width: 80%;
+	height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.second_header
+{
+	margin-top: 20%;
+	text-align: center;
+}
+
+.second_header h1
+{
+	font-size: 150px;
+	margin-bottom: -40px;
+}
+
+.second_header h2
+{
+	font-size: 36px;
+	color: #006699;
+	margin-bottom: 50px;
+}
+
+.arrow 
+{
+	position: absolute;
+   	left: 50%;                         
+   	transform: translate(-50%, 0);
+}
+
+.one_link
+{
+	border-bottom: 5px solid blue;
+}
+
+.two_link
+{
+	border-bottom: none;
+}
+
+.three_link
+{
+	border-bottom: none;
+}
+
+.four_link
+{
+	border-bottom: none;
+}
+
+.five_link
+{
+	border-bottom: none;
+}
+
+.six_link
+{
+	border-bottom: none;
+}
+
+#item-menu
+{
+	line-height: 100px;
+  	text-align: center;
+}
+
+#item-menu a
+{
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+}
+
+.menu-header-center
+{
+	height: 100%;
+	max-width: 65vmax;
+	width: 65%;
+	display: flex;
+	justify-content: center;
+}
+
+.awesome_agency
+{
+	background-color: #517787;
+	width: 100%;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.first_footer
+{
+	background-image: url(footer_fone.png);
+	width: 100%;
+	height: 920px;
+}
+
+#letterDiv
+{
+	/*position: relative;*/
+	display: flex;
+	justify-content: center;
+}
+
+#letter
+{
+	font-size: 260px;
+	opacity: 50%;
+	display: inline-block;
+}
+
+#textInLetter
+{
+	font-size: 36px;
+	position: absolute;
+	margin-top: 120px;
+}
+
+.InputArea
+{
+	display: inline-block;
+}
+
+.InputAreaCenter
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.FirstData input
+{
+	width: 90%;
+}
+
+#formatForm
+{
+	background-color: grey;
+	color: white;
+	font-size: 18px;
+}
+
+#margin-button-unit
+{
+	margin-bottom: 8%;
+}
+
+.Comment textarea
+{
+	width: 99%;
+}
+
+#sectorInput
+{
+	width: 33%;
+	float: left;
+}
+
+.CenterInput
+{
+	display: flex;
+	justify-content: center;
+}
+
+.CenterInput input
+{
+	display: inline-block;
+}
+
+.RightInput
+{
+	width: 34%;
+	float: left;
+}
+
+.RightInput input
+{
+	float: right;
+}
+
+.Confirmation
+{
+	display: flex;
+	justify-content: center;
+}
+
+.Confirmation input
+{
+	display: inline-block;
+	font-size: 36px;
+	color: white;
+	background-color: #517787;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.IMG
+{
+    display: flex;
+	justify-content: center;
+	overflow: hidden;
+  	width: 100%;
+}
+
+.IMG img
+{
+	width: 120%;
+	display: inline-block;
+}
+
+.Final
+{
+	background-color: grey;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+
+.Final div
+{
+	display: inline-block;
+	width: 80%;
+}
+
+#circle {
+	opacity: 50%; 
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.four-features div
+{
+	display: inline-block;
+	width: 80%;
+}
+
+.four-features
+{
+	display: flex;
+	justify-content: center;
+}
+
+#one-fourth
+{
+	width: 23%;
+	float: left;
+	margin-left: 2%;
+}
+#common-properties-features img
+{
+	display: inline-block;
+	position: absolute;
+	margin-top: -70px;
+}
+
+#common-properties-features h2
+{
+	display: inline-block;
+}
+
+#common-properties-features
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#common-second
+{
+	width: 100%;
+}
+
+#up-id-second
+{
+	width: 50%;
+	/*float: left;*/
+}
+
+.up-left-second
+{
+	background-color: #222222;
+	float: left;
+}
+
+.text-up-left-second
+{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+
+.text-up-left-second div
+{
+	margin-top: 10%;
+}
+
+.text-up-left-second h2
+{
+	margin-bottom: 10%;
+}
+
+/*.picture-up-right-second img
+{
+	width: 100%;
+	margin-bottom: -3%;
+	height: 100%;
+}*/
+
+.up-right-second
+{
+	float: left;
+}
+
+.up-right-second img
+{
+	width: 100%;
+}
+
+.down-second div
+{
+	width: 50%;
+	/*float: left;*/
+}
+
+/*.text-down-right-second
+{
+	background-color: white;
+	color: black;
+	height: 100%;
+}
+
+.picture-down-left-second img
+{
+	/*margin-top: -2%;*/
+/*	width: 100%;
+}*/
+
+/*.marg-down-right-second
+{
+	margin-left: 20%;
+}*/
+
+.down-right-second
+{
+	/*height: 90%;*/
+	background-color: white;
+	color: black;
+	width: 50%;
+	/*float: left;*/
+}
+
+.down-left-second
+{
+	float: left;
+}
+
+.down-left-second img
+{
+	width: 100%;
+}
+
+.text-down-right-second
+{/*
+	width: 70%;*/
+	/*height: 100%;*/
+	margin-left: 15%;
+}
+
+.text-down-right-second div
+{
+	margin-top: 10%;
+}
+
+.text-down-right-second h2
+{
+	margin-bottom: 10%;
+}
+
+.three
+{
+	background-color: white;
+	color: black;
+	/*display: flex;
+	justify-content: center;*/
+}
+
+/*.three h2
+{
+	display: inline-block;
+}*/
+
+.label-three
+{
+	display: flex;
+	justify-content: center;
+}
+
+.label-three h2
+{
+	display: inline-block;
+	opacity: 50%;
+}
+
+.four-data
+{
+	display: flex;
+	justify-content: center;
+}
+
+.four-data div
+{
+	display: inline-block;
+	width: 80%;
+}
+
+#font-h3-three
+{
+	color: blue;
+}
+
+#picture-three-four-data 
+{
+	width: 100%;
+}
+
+.two_features
+{
+	/*display: flex;
+	justify-content: center;*/
+
+	width: 80%;
+	display: inline-block;
+}
+
+#two_columns
+{
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+}
+
+#two_colums div
+{
+	float: left;
+}
+
+.four div
+{
+	width: 80%;
+	display: inline-block;
+}
+
+.four
+{
+	background-color: #517787;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#two_columns div
+{
+	float: left;
+}
+
+#imgs_four
+{
+	width: 20%;
+}
+
+#imgs_four img
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.five
+{
+	background-image: url(five_fon.png);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.center-five
+{
+	width: 80%;
+	display: inline-block;
+}
+
+.left-five
+{
+	
+	float: left;
+}
+
+.left-five h2
+{
+	margin-top: 30%;
+}
+
+.left-five p
+{
+	margin-top: 10%;
+}
+
+.left-five div
+{
+	margin-top: 5%;
+}
+
+#button-five
+{
+	background-color: #517787;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+#two-divs-five
+{
+	width: 45%;
+	margin-left: 5%;
+	float: left;
+}
+
+.img-five-outer
+{
+	/*vertical-align: middle;*/
+	position: relative;
+	height: 100%;
+}
+
+.img-five-inner
+{
+	height: 70%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-five-inner img
+{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.six
+{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+.bottom-label-six
+{
+	/*display: inline-block;*/
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.bottom-label-six span
+{
+	display: inline-block;
+	opacity: 70%;
+	font-size: 18px;
+}
+
+.center-columns-six div
+{
+	width: 80%;
+	display: inline-block;
+}
+
+.center-columns-six
+{
+	display: flex;
+	justify-content: center;
+}
+
+.member-team img
+{
+	width: 100%;
+}
+
+.member-team div
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#label-six
+{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	background-color: white;
+}
+
+#label-six h3
+{
+	position: absolute;
+}
+
+#label-six span
+{
+	position: relative;
+	top: 50%;
+}
+
+.table-second
+{
+	width: 100%;
+	border: none;
+}
+
+.table-second tr td
+{
+	width: 50%;
+}
+
+#second-i img
+{
+	width: 100%;
+}
+
+.left-footer-label span
+{
+	float: left;
+}
+
+.right-footer-label span
+{
+	float: right;
+}
+
+#footer-label
+{
+	width: 50%;
+	float: left;
+}
